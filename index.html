@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Northstar Website Launch Kit — Simple Website Starter</title>
+<meta name="description" content="A clean, responsive one-page website starter you can customize and publish without a framework or complicated setup.">
+<style>
+:root{--ink:#172033;--muted:#5f6878;--line:#e6e9ef;--bg:#f7f8fb;--card:#fff;--accent:#3157d5;--accent-dark:#2445b3}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+.wrap{width:min(1080px,92%);margin:auto}header{padding:24px 0;background:#fff;border-bottom:1px solid var(--line)}.brand{font-weight:800;letter-spacing:.02em}
+.hero{padding:76px 0 64px;background:#fff}.hero-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:48px;align-items:center}
+.eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:.78rem;font-weight:800;color:var(--accent)}
+h1{font-size:clamp(2.4rem,6vw,4.6rem);line-height:1.02;margin:12px 0 20px;letter-spacing:-.04em}.lead{font-size:1.18rem;color:var(--muted);max-width:680px}
+.cta{display:inline-block;margin-top:24px;padding:14px 22px;border-radius:10px;background:var(--accent);color:#fff;text-decoration:none;font-weight:800}.cta:hover{background:var(--accent-dark)}
+.price-card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:28px;box-shadow:0 14px 40px rgba(20,30,55,.08)}.price{font-size:2.5rem;font-weight:900}
+section{padding:64px 0}h2{font-size:2rem;margin:0 0 12px;letter-spacing:-.025em}.sub{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px}.card h3{margin-top:0}
+.steps{counter-reset:step}.step{position:relative;padding-left:58px;margin:22px 0}.step:before{counter-increment:step;content:counter(step);position:absolute;left:0;top:0;width:38px;height:38px;border-radius:50%;background:#eaf0ff;color:var(--accent);display:grid;place-items:center;font-weight:900}
+.payment{background:#eef2ff;border:1px solid #dbe3ff;border-radius:18px;padding:30px}code{background:#fff;border:1px solid var(--line);padding:3px 7px;border-radius:6px}.faq{border-top:1px solid var(--line);padding:20px 0}
+footer{padding:40px 0;background:#fff;color:var(--muted);border-top:1px solid var(--line);font-size:.9rem}
+@media(max-width:760px){.hero-grid,.grid{grid-template-columns:1fr}.hero{padding-top:52px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><div class="brand">NORTHSTAR</div></div></header>
+<main>
+<section class="hero"><div class="wrap hero-grid"><div><div class="eyebrow">Website Launch Kit</div><h1>Launch a clean website without starting from zero.</h1><p class="lead">A responsive one-page HTML/CSS starter for freelancers, creators, consultants, small businesses, and side projects. Customize the text, add your links, and publish.</p><a class="cta" href="#buy">Get the Launch Kit</a></div><div class="price-card"><div class="eyebrow">One-time purchase</div><div class="price">$19</div><p>No subscription. Digital download.</p><a class="cta" href="#buy">See payment instructions</a></div></div></section>
+<section><div class="wrap"><h2>Everything you need to get started</h2><p class="sub">A small, practical starter instead of a complicated website stack.</p><div class="grid">
+<div class="card"><h3>Responsive website</h3><p>Clean one-page layout designed to work across desktop and mobile screens.</p></div>
+<div class="card"><h3>Ready-made sections</h3><p>Hero, call-to-action, features, process, testimonial/quote, and contact sections are already structured.</p></div>
+<div class="card"><h3>Plain HTML + CSS</h3><p>No framework, build system, or complicated setup required.</p></div>
+<div class="card"><h3>Quick-start guide</h3><p>Simple instructions for changing your content and getting the site published.</p></div>
+<div class="card"><h3>Launch checklist</h3><p>A practical checklist to catch common details before you publish.</p></div>
+<div class="card"><h3>Commercial-use license</h3><p>Customize it for your own website or client work. See the included license for the full terms.</p></div>
+</div></div></section>
+<section id="buy"><div class="wrap"><div class="payment"><h2>How to buy</h2><p>The Northstar Website Launch Kit is delivered as a ZIP file after payment is verified.</p><div class="steps">
+<div class="step"><strong>Send $19 through PayPal.</strong><br>Use the payment page: <a href="https://paypal.me/realshifted" target="_blank" rel="noopener">PayPal payment page</a></div>
+<div class="step"><strong>Use an email address you can receive files at.</strong><br>This lets the seller know where to send your download.</div>
+<div class="step"><strong>After paying, send your payment confirmation.</strong><br>Include the name/email used for the payment and your preferred delivery email.</div>
+<div class="step"><strong>Receive the ZIP file.</strong><br>Your download will be sent after the payment has been verified.</div>
+</div><p><strong>Important:</strong> This is a manual fulfillment process. Please don't send your payment more than once while waiting for confirmation.</p><a class="cta" href="https://paypal.me/realshifted" target="_blank" rel="noopener">Pay $19 with PayPal</a></div></div></section>
+<section><div class="wrap"><h2>What you receive</h2><p class="sub">The ZIP contains the complete starter package.</p><div class="card"><ul>
+<li><code>index.html</code> — website structure and content</li><li><code>styles.css</code> — responsive styling</li><li><code>QUICK-START.md</code> — customization and publishing guide</li><li><code>LAUNCH-CHECKLIST.md</code> — pre-launch checklist</li><li><code>LICENSE.md</code> — usage terms</li><li><code>README.md</code> — package overview</li>
+</ul></div></div></section>
+<section><div class="wrap"><h2>Questions</h2>
+<div class="faq"><strong>Do I need coding experience?</strong><p class="sub">Basic HTML/CSS editing is helpful, but the included quick-start guide walks through the main customization steps.</p></div>
+<div class="faq"><strong>Is this a website builder?</strong><p class="sub">No. It's a ready-made website starter you download and customize. You choose where to host it.</p></div>
+<div class="faq"><strong>Can I use it for a client?</strong><p class="sub">Yes, subject to the included commercial-use license. You may customize the template for client work; you may not redistribute the original template as a competing template product.</p></div>
+<div class="faq"><strong>Is the purchase recurring?</strong><p class="sub">No. It's a one-time $19 digital purchase.</p></div>
+</div></section>
+</main>
+<footer><div class="wrap">Northstar Website Launch Kit · Digital product · $19 one-time purchase</div></footer>
+</body>
+</html>
